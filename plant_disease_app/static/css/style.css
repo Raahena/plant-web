@@ -1,0 +1,92 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-purple {
+    color: #6f42c1;
+}
+
+.text-orange {
+    color: #fd7e14;
+}
+
+/* Upload area styling */
+.upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover, .upload-area.dragover {
+    border-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.05);
+}
+
+/* Plant icons styling */
+.plant-icon {
+    padding: 15px 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.plant-icon:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+}
+
+/* How it works section */
+.how-it-works-icon {
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.how-it-works-icon:hover {
+    transform: scale(1.05);
+}
+
+.how-it-works-icon p {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Results page styling */
+.diagnosis-details h5 {
+    margin-top: 20px;
+    color: #495057;
+    font-weight: 600;
+}
+
+.diagnosis-details p {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.confidence-bar p {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Resource cards */
+.resource-card {
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.alternate-predictions .list-group-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .how-it-works-icon {
+        padding: 10px;
+    }
+}
